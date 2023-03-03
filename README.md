@@ -1,12 +1,9 @@
-# Django-ChatGPT-linebot-Vercel
-# 一個Django ChatGPT linebot快速建置於平台Vercel。
+# Django-official-ChatGPT-linebot-Vercel
+# 一個使用Django框架和GPT3.5 turbo/ChatGPT，創造linebot的專案，快速建置於平台Vercel。
 
 
-### [English](https://github.com/pyfbsdk59/Django-ChatGPT-linebot-Vercel/blob/main/README_en.md)
-### [日本語](https://github.com/pyfbsdk59/Django-ChatGPT-linebot-Vercel/blob/main/README_jp.md)
-
-
-
+### [English](https://github.com/pyfbsdk59/Django-official-ChatGPT-linebot-Vercel/blob/main/README_en.md)
+### [日本語](https://github.com/pyfbsdk59/Django-official-ChatGPT-linebot-Vercel/blob/main/README_jp.md)
 
 
 
@@ -21,5 +18,6 @@ https://github.com/vercel/examples/tree/main/python/django
 
 ### 3. 主要就是裝了openapi的依賴後容量會大增。故在這版本我們只使用Django 2.0版本減少容量。我試過Django 3.2以上版本會Build失敗。若沒有其他特別需求，建議使用Django 2.0版本即可。也歡迎測試其他版本。
 
+### 4. openai的依賴必須使用0.27.0以上版本。
 ------
 ### Line和openai api設置請參考： https://github.com/howarder3/GPT-Linebot-python-flask-on-vercel
